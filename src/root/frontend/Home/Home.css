@@ -1,0 +1,36 @@
+.home > img {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .home-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    object-fit: contain;
+  }
+  
+  .home{
+    background: url('../images/main.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .home > h1 {
+    margin-left: 30px;
+    margin-top: 100px;
+    color: #CA9064;
+    font-size: 63px;
+    font-style: italic;
+  }
+  
+  .home > p {
+    margin-left: 55px;
+    color: #000;
+    font-size: 22px;
+  }
+    
