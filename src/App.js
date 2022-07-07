@@ -1,6 +1,6 @@
 import './App.css';
-import Navbar from './root/frontend/Home/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './root/frontend/components/Navbar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
