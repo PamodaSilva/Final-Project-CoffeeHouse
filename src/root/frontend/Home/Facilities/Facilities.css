@@ -36,9 +36,17 @@
   
   .title {
     font-style: italic;
-    color: #CA9064;
+    color: #AF7F66;
     font-size: 50px;
     text-align: center;
     margin-top: 1.5em;
     margin-bottom: .5em;
   }
+
+  @media screen and (max-width: 900px) {
+    .grid5 {
+      grid-template-columns: repeat(1, 5fr);
+      margin-left: 5em;
+    }
+
+}
