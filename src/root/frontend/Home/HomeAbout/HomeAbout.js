@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon from '../images/Icon.png';
-import CoffeeHouse from '../images/CoffeeHouse.jpg';
-import HomeMenu from '../images/HomeMenu.jpg';
+import Icon from '../../images/Icon.png';
+import CoffeeHouse from '../../images/CoffeeHouse.jpg';
+import HomeMenu from '../../images/HomeMenu.jpg';
 import './HomeAbout.css';
 
 

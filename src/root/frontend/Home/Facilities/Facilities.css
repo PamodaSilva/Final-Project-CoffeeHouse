@@ -1,0 +1,44 @@
+  
+  .grid5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 55px; 
+  }
+
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .mtop {
+    margin-top: 50px;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: .5em;
+  }
+
+.Facilities .box {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    flex-direction: row;
+    margin-bottom: 1em;
+    width: 250px;
+  }
+  .Facilities img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+  }
+  
+  .title {
+    font-style: italic;
+    color: #CA9064;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+  }

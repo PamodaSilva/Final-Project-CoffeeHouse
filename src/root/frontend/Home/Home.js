@@ -1,16 +1,21 @@
 import React from 'react'
 import './Home.css';
 import HomeAbout from './HomeAbout/HomeAbout';
+import Facilities from './Facilities/Facilities';
 
 function home() {
   return (
-    <div className='home-container'>
+    <div>
+      <div className='home-container'>
         <div className='home'>
             <h1> Coffee House </h1>
             <p>Start your day with the perfect Coffee. <br/> Drink Coffee to relax your mind a busy schedule.</p>
         </div>
-        <HomeAbout/>
-      </div>
+    </div>
+    <HomeAbout/>
+    <Facilities/>
+    </div>
+    
   )
 }
 
