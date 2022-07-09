@@ -3,6 +3,7 @@ import './Home.css';
 import HomeAbout from './HomeAbout/HomeAbout';
 import Facilities from './Facilities/Facilities';
 import Gallery from './Gallery/Gallery';
+import Footer from '../components/Footer';
 
 function home() {
   return (
@@ -16,8 +17,8 @@ function home() {
     <HomeAbout/>
     <Facilities/>
     <Gallery/>
+    <Footer/>
     </div>
-    
   )
 }
 
