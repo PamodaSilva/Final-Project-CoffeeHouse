@@ -1,7 +1,7 @@
 
 export const Data = [
     {
-      image: "F1.png",
+      image: "../../images/F2.png",
       title: " Varieties of Coffee ",
       details: " At Coffee house you can find lots of tasty coffee flavors. ",
     },

@@ -5,3 +5,67 @@
     margin-top: 1.5em;
     margin-bottom: .5em;
   }
+
+.image-set1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3em;
+  margin-left: 7em;
+  margin-bottom: 2em;
+}
+
+.image-set2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 10em;
+  margin-bottom: 2em;
+  align-content: center;
+}
+
+.image-set3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 6em;
+  margin-bottom: 2em;
+}
+
+.Pic1 {
+  height: 250px;
+  width: 400px;
+}
+
+.Pic2 {
+  height: 300px;
+  width: 290px;
+}
+
+.Pic3 {
+  height: 250px;
+  width: 400px;
+  margin-left: -3em;
+}
+
+.Pic4 {
+  height: 300px;
+  width: 500px;
+}
+
+.Pic5 {
+  height: 300px;
+  width: 500px;
+}
+
+.Pic6 {
+  height: 300px;
+  width: 400px;
+}
+
+.Pic7 {
+  height: 320px;
+  width: 410px;
+}
+
+.Pic8 {
+  height: 300px;
+  width: 400px;
+}
