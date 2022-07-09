@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css';
 import HomeAbout from './HomeAbout/HomeAbout';
 import Facilities from './Facilities/Facilities';
+import Gallery from './Gallery/Gallery';
 
 function home() {
   return (
@@ -14,6 +15,7 @@ function home() {
     </div>
     <HomeAbout/>
     <Facilities/>
+    <Gallery/>
     </div>
     
   )
