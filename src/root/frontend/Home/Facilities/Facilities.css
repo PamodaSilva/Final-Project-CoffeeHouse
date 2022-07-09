@@ -1,8 +1,7 @@
   
   .grid5 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 55px; 
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .container {
@@ -45,7 +44,7 @@
 
   @media screen and (max-width: 900px) {
     .grid5 {
-      grid-template-columns: repeat(1, 5fr);
+      grid-template-columns: repeat(1, 4fr);
       margin-left: 5em;
     }
 
