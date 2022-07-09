@@ -1,34 +1,46 @@
 import React from 'react'
 import FooterOverlay from './FooterOverlay';
 import './Footer.css';
+import Footer1 from '../images/Footer1.png';
+import Footer2 from '../images/Footer2.png';
+import Footer3 from '../images/Footer3.png';
+import Footer4 from '../images/Footer4.png';
 
 function Footer() {
   return (
-    <div className="app__footer section__padding" id="login">
+    <div className="footer section__padding" id="login">
     <FooterOverlay />
-    <div className="app__footer-links">
-      <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Contact Us</h1>
-        <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
-        <p className="p__opensans">+1 212-344-1230</p>
-        <p className="p__opensans">+1 212-555-1230</p>
+    <div className="footer-links">
+      <div className="footer-links_email">
+        <img src={Footer1} alt="Footer Photo1" />
+        <h1 className="footer-headtext"> Our Email </h1>
+        <p> coffee_House@gmail.com </p>
       </div>
 
-      <div className="app__footer-links_logo">
-        <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+      <div className="footer-links_work">
+        <img src={Footer2} alt="Footer Photo2" />
+        <h1 className="footer-headtext">Working Hours</h1>
+        <p> Monday-Friday: 08:00 am - 12:00 am</p>
+        <p> Saturday-Sunday: 07:00 am - 11:00 pm</p>
       </div>
 
-      <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Working Hours</h1>
-        <p className="p__opensans">Monday-Friday:</p>
-        <p className="p__opensans">08:00 am - 12:00 am</p>
-        <p className="p__opensans">Saturday-Sunday:</p>
-        <p className="p__opensans">07:00 am - 11:00 pm</p>
+      <div className="footer-links_location">
+        <img src={Footer3} alt="Footer Photo3" />
+        <h1 className="footer-headtext"> Shop Location </h1>
+        <p> No:123, Galle Road, Colombo. </p>
       </div>
+
+      <div className="footer-links_contact">
+        <img src={Footer4} alt="Footer Photo4" />
+        <h1 className="footer-headtext"> Our Phone </h1>
+        <p> 011 1526528 </p>
+        <p> 071 4566963 / 077 8956245 </p>
+      </div>
+
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p >2021 Gericht. All Rights reserved.</p>
     </div>
 
   </div>

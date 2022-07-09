@@ -25,7 +25,7 @@
 .image-set3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 6em;
+  margin-left: 5em;
   margin-bottom: 2em;
 }
 
@@ -62,7 +62,7 @@
 
 .Pic7 {
   height: 320px;
-  width: 410px;
+  width: 440px;
 }
 
 .Pic8 {
