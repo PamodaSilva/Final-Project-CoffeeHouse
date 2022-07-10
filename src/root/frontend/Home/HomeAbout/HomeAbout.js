@@ -11,7 +11,6 @@ function HomeAbout() {
     <div className="aboutUs" id="about">
     
       <div className="aboutUs-content">
-            
         <div className="aboutUs-content_about">
           <img src= {CoffeeHouse} alt='Coffee House' className='image1'/>
           <h1> Who we are </h1>

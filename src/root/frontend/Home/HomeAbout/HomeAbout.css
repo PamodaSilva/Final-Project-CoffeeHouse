@@ -16,7 +16,6 @@
     align-items: flex-end;
     flex-direction: column;
     margin-top: 1em;
-
     text-align: right;
 }
 
@@ -92,5 +91,13 @@
 
     .aboutUs-content_coffee {
         margin: 4rem 0;
+    }
+
+    .aboutUs-content_about > img,.aboutUs-content_menu > img{
+        width: 500px;
+    }
+
+    .aboutUs-content_about {
+        margin-right: .5em;
     }
 }
