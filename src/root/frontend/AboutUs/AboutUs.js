@@ -6,6 +6,7 @@ import A2 from '../images/A2.jpg'
 import A3 from '../images/A3.jpg'
 import A4 from '../images/A4.jpg'
 import FooterImage from '../images/AboutFooter.png'
+import Team from './team';
 import Footer from '../components/Footer';
 
 function AboutUs() {
@@ -27,7 +28,7 @@ function AboutUs() {
           all employees starting from the security.
         </p> <br/>
         <p>    
-          With our humble beginnings at Coffee House Colombo, throughout these five years Coffee House has 
+          With our humble beginnings at Coffee House Colombo, throughout these three years Coffee House has 
           grown strength to strength expanding our branches to Bambalapitiya, Nawala and Nugegoda with 
           ideas of expanding even further to ensure that a good quality cup of coffee is just within your reach.
         </p> <br/>
@@ -41,7 +42,7 @@ function AboutUs() {
       <div className='aboutUsTeam'>
         <h2> Our Team </h2>
         <div className='aboutUsTeamImage'>
-
+          <Team/>
         </div>
       </div>
       <div className = 'aboutFooterImage'>

@@ -31,7 +31,45 @@
     height: 280px;
 }
 
+.aboutUsTeam > h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
 
 .aboutFooterImage > img {
     width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .about-main-image > img{
+        height: 230px;
+    }
+
+    .About-title {
+        font-size: 50px;
+    }
+
+    .aboutUsImage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        align-items: center;
+    }
+    
+    .aboutUsImage > img {
+        width: 340px;
+        height: 280px;
+    }
+
+    .AboutUsContent {
+        font-size: medium;
+    }
+
+    .aboutUsTeam > h2 {
+        font-size: 35px;
+    }
 }
