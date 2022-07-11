@@ -30,7 +30,8 @@ function Booking() {
         </div>
       </div>
       <div className='Note'>
-        <p> *Note - </p>
+        <p className='noteH'> *Note :-</p>
+        <p> Registration is not mandatory. You can also book the table as a guest. </p>
       </div>
       <Footer/>
     </div>
