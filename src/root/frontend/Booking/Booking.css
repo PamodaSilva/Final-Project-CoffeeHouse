@@ -1,0 +1,43 @@
+.bookingContent{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+.bookingImage{
+    display: flex;
+    flex-direction: row;
+}
+
+.bookingImage > img {
+    width: 430px;
+    height: 570px;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.bookingForm > h3{
+    margin-top: 1.4em;
+    font-size: xx-large;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5em;
+    background-color: #CA9064;
+    padding: 25px;
+    margin-top: 1.5em;
+    width: 400px;
+}
+
+form input{
+    padding: 8px;
+    border: 1.5px solid ;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+
+
