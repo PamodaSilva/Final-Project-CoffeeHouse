@@ -40,7 +40,7 @@ function Footer() {
     </div>
 
     <div className="footer__copyright">
-      <p >2021 Gericht. All Rights reserved.</p>
+      <p >2021 Coffee House. All Rights reserved.</p>
     </div>
 
   </div>
