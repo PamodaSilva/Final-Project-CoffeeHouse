@@ -17,8 +17,8 @@
 }
 
 .bookingForm > h3{
-    margin-top: 1.4em;
-    font-size: xx-large;
+    margin-top: 1em;
+    font-size: 40px;
     text-align: center;
 }
 .Booking{
@@ -26,16 +26,15 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 1.5em;
-    background-color: #CA9064;
-    padding: 25px;
+    background-color: #be987b;
+    padding: 40px;
     margin-top: 1.5em;
-    width: 400px;
+    width: 420px;
 }
 
 .Booking > input{
     padding: 8px;
-    border: 1.5px solid ;
-    border-radius: 15px;
+    border: none ;
     font-size: 17px;
 }
 
