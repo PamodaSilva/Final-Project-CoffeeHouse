@@ -4,11 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-        ), 
-    url("../../images/LoginBackgroud1.jpg");
+    background: url("../../images/LoginBackgroud1.jpg");
     background-size: cover;
 }
 
@@ -23,7 +19,6 @@
 }
 
 .signInForm{
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     margin: 65px;
@@ -53,25 +48,17 @@
 }
 
 .signInRegisterButton{
-    position: absolute;
-    margin-top: 50px;
-    top: 60px;
-    right: 50px;
+    margin-top: .5em;
     border: none;
     background-color: #b67b4e;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     color: white;
     border-radius: 10px;
     font-size: larger;
 }
 
 @media screen and (max-width: 900px){
-    .signInRegisterButton{
-        top: 50px;
-        right: 20px;
-    }
-
     .signInTitle{
         font-size: 45px;
     }

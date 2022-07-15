@@ -15,12 +15,12 @@ function SignIn() {
           <label>Password</label>
           <input type="password" className='signInInput' placeholder="Enter your password" />
           <button className='signInButton'>Login</button>
+          <label> Don't have an Account ? </label>
+          <Link to='/sign-up'>
+            <button className='signInRegisterButton'>Register</button>
+          </Link>
       </form>
       </div>
-      <Link
-        to='/sign-up'>
-          <button className='signInRegisterButton'>Register</button>
-        </Link>
     </div>
     <Footer/>
     </>
