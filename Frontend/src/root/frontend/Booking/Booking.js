@@ -17,12 +17,12 @@ function Booking() {
         <div className='bookingForm'>
           <h3> Book Your Table </h3>
           <form className='Booking'>
-            <input type='text' placeholder='Full Name'/>
-            <input type='Email' placeholder='Your Email Address'/>
-            <input type='text' placeholder='Your Telephone Number'/>
-            <input type='text' placeholder='Date'/>
-            <input type='text' placeholder='Time'/>
-            <input type='text' placeholder='Number of Guest'/>
+            <input type='text' placeholder='Full Name' className='FullName'/>
+            <input type='Email' placeholder='Your Email Address' className='Email'/>
+            <input type='text' placeholder='Your Telephone Number' className='TPNumber'/>
+            <input type='text' placeholder='Date' className='Date'/>
+            <input type='text' placeholder='Time' className='Time'/>
+            <input type='text' placeholder='Number of Guest' className='NumberOfGuest'/>
               <Button className='btns' buttonStyle='btn--inline' buttonSize='btn--medium'>
                   Book A Table
               </Button>
