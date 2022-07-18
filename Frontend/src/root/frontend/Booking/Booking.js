@@ -17,7 +17,7 @@ function Booking() {
   const [NumberOfGuest, setNumberOfGuest] = useState("");
   
   const registerRequest = async () => {
-    return await axios.post("http://localhost:4000/users/register", {
+    return await axios.post("http://localhost:3000/Booking", {
       FullName,
       Email,
       TPNumber,

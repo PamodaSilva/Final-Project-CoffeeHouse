@@ -10,6 +10,9 @@ app.use(cors());
 const bookRoutes = require("./routes/Booking");
 app.use(bookRoutes);
 
+const RegisterRoutes = require("./routes/SignUp");
+app.use(RegisterRoutes);
+
 const PORT = 3000;
 const URL = "mongodb+srv://pamodasilva:<Pamodasilva99>@cluster0.qq786.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(URL)
