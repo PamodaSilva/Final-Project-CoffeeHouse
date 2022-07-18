@@ -12,7 +12,7 @@ function SignUp() {
   const [Password, setPassword] = useState("");
   
   const registerRequest = async () => {
-    return await axios.post("http://localhost:3000/", {
+    return await axios.post("http://localhost:3000/sign-up/", {
       Name,
       Email,
       Password,
