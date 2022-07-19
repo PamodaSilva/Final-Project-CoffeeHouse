@@ -1,0 +1,26 @@
+.set01, .set02{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    justify-content: center;
+    gap: 3.5em;
+}
+
+.TImage1>img, .TImage2>img, .TImage3>img, .TImage4>img, .TImage5>img, .TImage6>img, .TImage7>img{
+    height: 200px;
+    width: 250px;
+}
+
+.TImage1>p, .TImage2>p, .TImage3>p, .TImage4>p, .TImage5>p, .TImage6>p, .TImage7>p{
+    font-size: 17px;
+    margin-top: .5em;
+}
+
+@media screen and (max-width: 900px) {
+    .set01, .set02{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3em;
+        align-items: center;
+    }
+}
